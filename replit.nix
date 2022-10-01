@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.python39Packages.poetry
     pkgs.python38Full
     pkgs.python38Packages.pandas
     pkgs.python38Packages.seaborn
